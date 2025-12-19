@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* === FONT & BASE === */
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+/* === GLOBAL THEME COLORS === */
+:root {
+  --pink: #ec4899;
+  --purple: #8b5cf6;
+}
+
+/* === DARK MODE === */
+.dark {
+  --bg-main: #121212;
+  --bg-card: #1e1e1f;
+  --bg-secondary: #2a2a2b;
+  --text-primary: #ffffff;
+  --text-secondary: #9ca3af;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+
+  /* 🌙 DARK MODE BACKGROUND */
+  --bg-gradient: linear-gradient(135deg, #1a1a1a 0%, #111827 50%, #1f2937 100%);
+  --bg-image: url("/bg-pattern-b.jpg");
+}
+
+/* === LIGHT MODE === */
+.light {
+  --bg-main: #f9fafb;
+  --bg-card: #ffffff;
+  --bg-secondary: #f3f4f6;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+
+  /* ☀️ LIGHT MODE BACKGROUND */
+  --bg-gradient: linear-gradient(135deg, #fdf2f8 0%, #f3f4f6 50%, #e0f2fe 100%);
+  --bg-image: url("/bg-pattern-w.jpg");
+}
+
+/* === APPLY GLOBALLY === */
+body {
+  background: var(--bg-gradient), var(--bg-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--text-primary);
+}
+
+/* === UTILITIES (OPTIONAL) === */
+.bg-gradient-accent {
+  background-image: linear-gradient(to bottom right, var(--pink), var(--purple));
+}
