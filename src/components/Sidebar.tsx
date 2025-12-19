@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import jsPDF from "jspdf";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaGithub, FaGlobe } from "react-icons/fa";
 import { Phone, MapPin, Mail, Calendar } from "lucide-react";
 
 export default function Sidebar() {
@@ -48,7 +48,7 @@ export default function Sidebar() {
       label: "GitHub",
     },
     {
-icon: FaGithub,
+icon: FaGlobe,
   href: "https://portfolio-71d6.vercel.app/",
   label: "Website",
 }
