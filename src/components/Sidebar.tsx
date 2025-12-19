@@ -47,6 +47,12 @@ export default function Sidebar() {
       href: "https://github.com/ikhsankhaeruddin04",
       label: "GitHub",
     },
+    {
+icon: FaGithub,
+  href: "https://portfolio-71d6.vercel.app/",
+  label: "Website",
+}
+
   ];
 
   return (
