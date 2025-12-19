@@ -13,7 +13,7 @@ export default function Works() {
       img: "/work2.png",
       title: "Portfolio Website",
       category: "Web Development",
-      link: "https://github.com/ikhsankhaeruddin/portfolio",
+      link: "https://portfolio-71d6.vercel.app/",
     },
     
   ];
