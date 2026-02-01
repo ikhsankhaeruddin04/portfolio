@@ -19,7 +19,11 @@ export default function About() {
       </h2>
 
       <p className="text-[var(--text-secondary)] leading-relaxed">
-      A fresh graduate in Informatics Engineering with a strong interest in software development and information technology. Experienced in basic programming, web development, computer networking, and system analysis through academic projects and vocational training programs. Also familiar with entry-level game development and functional testing through personal projects. Able to work both independently and in a team environment, highly motivated to learn new technologies, and equipped with good communication skills.
+      I am an Informatics Engineering graduate specializing in web development with a strong foundation in modern JavaScript and frontend technologies.
+
+I have experience building responsive and user-centered web applications through academic and personal projects, with a strong focus on clean, maintainable code.
+
+Adaptable, detail-oriented, and quick to learn, I am ready to contribute to a collaborative development team while continuing to grow as a software engineer.
 
       </p>
 

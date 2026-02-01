@@ -52,8 +52,11 @@ export default function Sidebar() {
 
         <h2 className="text-2xl font-semibold">Ikhsan Khaeruddin</h2>
         <p className="text-[var(--text-secondary)] text-sm mb-5">
-          Fresh Graduate
+          Frontend Developer | React & Modern JavaScript
         </p>
+        <p className="text-[var(--text-secondary)] text-sm mb-5 text-justify">
+  Frontend Developer specializing in React and modern JavaScript. Focused on building responsive, user-centered applications and ready to contribute to a professional engineering team.
+</p>
 
         {/* SOSIAL */}
         <div className="flex justify-center space-x-3 mb-6">

@@ -7,23 +7,23 @@ export default function WhatIDo() {
   const items = [
     {
       icon: <FaGamepad />,
-      title: "Game Development (Entry-Level)",
-      desc: "Developing simple 2D/3D games and interactive gameplay mechanics using Unity and C# through personal and academic projects.",
+      title: "Frontend Development",
+      desc: "Develop responsive, high-performance web applications using React and modern JavaScript, emphasizing usability and scalable architecture.",
     },
     {
       icon: <FaCode />,
-      title: "Web Development",
-      desc: "Building basic and responsive web applications using HTML, CSS, JavaScript, and modern frameworks such as React and Next.js.",
+      title: "UI Engineering",
+      desc: "Translate design concepts into scalable, pixel-accurate interfaces while maintaining accessibility and cross-device consistency.",
     },
     {
       icon: <FaPaintBrush />,
-      title: "UI Implementation",
-      desc: "Implementing UI designs into clean, functional, and responsive user interfaces based on provided design guidelines.",
+      title: "API Integration",
+      desc: "Integrate RESTful APIs to deliver dynamic and data-driven user experiences.",
     },
     {
       icon: <FaLightbulb />,
-      title: "Problem Solving & Testing",
-      desc: "Applying logical thinking to identify issues, perform basic debugging, and support functional testing in software and game projects.",
+      title: "Web Performance & Optimization",
+      desc: "Optimize web performance by writing efficient code and ensuring fast, smooth user experiences across modern applications.",
     },
   ];
   
@@ -42,7 +42,7 @@ export default function WhatIDo() {
       className="p-8 rounded-2xl mt-6"
     >
       <h2 className="text-2xl font-semibold mb-3 border-b border-[var(--pink)] pb-2 inline-block">
-        What I Do
+        Core Expertise
       </h2>
 
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 mt-6">
