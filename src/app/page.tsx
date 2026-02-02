@@ -162,7 +162,7 @@ export default function Home() {
               {/* HEADER */}
               <header className="flex justify-between items-center mb-4 sticky top-0 z-50 backdrop-blur-md">
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
-                  Portfolio
+                  Portofolio
                 </h1>
                 <button
                   onClick={toggleTheme}
