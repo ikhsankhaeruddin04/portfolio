@@ -107,7 +107,7 @@ export default function Sidebar() {
         <motion.a
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          href="/Ikhsan Khaeruddin-resume.pdf"
+          href="/Portofolio_ikhsan.pdf"
           download
           className="mt-6 bg-gradient-accent px-6 py-3 rounded-md font-medium text-white flex items-center gap-2 justify-center"
         >

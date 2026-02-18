@@ -19,11 +19,10 @@ export default function About() {
       </h2>
 
       <p className="text-[var(--text-secondary)] leading-relaxed">
-      I am an Informatics Engineering graduate specializing in web development with a strong foundation in modern JavaScript and frontend technologies.
-
-I have experience building responsive and user-centered web applications through academic and personal projects, with a strong focus on clean, maintainable code.
-
-Adaptable, detail-oriented, and quick to learn, I am ready to contribute to a collaborative development team while continuing to grow as a software engineer.
+      Frontend Developer specializing in React and Next.js with hands-on experience building responsive web
+applications through academic projects and professional training. Strong foundation in modern JavaScript,
+API integration, and user-focused interface development. Comfortable collaborating in team environments
+and continuously improving technical skills.
 
       </p>
 
